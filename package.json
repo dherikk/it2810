@@ -1,7 +1,6 @@
 {
   "name": "what-2-watch",
   "version": "0.1.0",
-  "homepage": "/p3new",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.4.16",
