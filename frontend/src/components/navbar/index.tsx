@@ -2,7 +2,6 @@ import * as React from "react";
 import { useSelector } from "react-redux";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import "./index.css";
 import { alpha, styled } from "@mui/material/styles";
 import {
   IconButton,
@@ -19,6 +18,7 @@ import { selectUserIsLoggedIn } from "../../services/selectors";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SignIn from "../login";
 import { faUser } from '@fortawesome/free-solid-svg-icons'
+import "./index.css";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",

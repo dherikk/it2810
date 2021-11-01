@@ -53,7 +53,7 @@ export const MainPage: FunctionComponent = () => {
       filterDateEnd,
       sortBy
     ).catch((error) => {
-      throw error
+      console.log(error)
     });
 
     if (movies) {

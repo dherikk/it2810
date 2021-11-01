@@ -1,6 +1,7 @@
 {
   "name": "what-2-watch",
   "version": "0.1.0",
+  "homepage": "/p3new",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.4.16",
@@ -55,7 +56,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",

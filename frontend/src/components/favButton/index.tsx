@@ -28,7 +28,7 @@ const FavButton: React.FC<FavButtonProps> =({isFavorited, userName, id}) => {
             userName,
             id
           ).catch((error) => {
-            throw error;
+            console.log(error)
           })
         }
       }
@@ -39,7 +39,7 @@ const FavButton: React.FC<FavButtonProps> =({isFavorited, userName, id}) => {
         userName,
         id
         ).catch((error) => {
-          throw error
+          console.log(error)
         })
     }
     }
